@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: "Garamond", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+html {
+
+  transition-property: background;
+  transition-duration: 1s;
+  cursor: default;
+}
