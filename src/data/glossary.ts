@@ -1,5 +1,5 @@
 import {GlossaryProps} from "../component/interface/glossary-props";
-import glossary from "./glossary.json"
+import glossary from "./web_dictionary.json"
 import { GlossaryLinkProps } from "../component/interface/glossary-link-props";
 
 export const Glossary : GlossaryProps[] = glossary.nodes;

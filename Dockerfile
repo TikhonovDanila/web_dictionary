@@ -3,7 +3,7 @@ FROM node:slim
 RUN apt update
 RUN apt install curl -y
 
-WORKDIR /tech-lab/
+WORKDIR /web_dictionary/
 
 COPY public ./public/
 COPY src ./src/
