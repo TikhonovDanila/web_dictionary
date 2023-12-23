@@ -1,7 +1,6 @@
 {
   "name": "itmo_labs_web_dictionary_tikhonov",
   "version": "0.1.0",
-  "homepage": "https://TikhonovDanila.github.io/itmo_laboratory_work/tech_practice_1/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
