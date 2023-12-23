@@ -1,4 +1,3 @@
-// MindMap.jsx
 import React from 'react';
 import Graph from 'react-graph-vis';
 
@@ -13,7 +12,6 @@ const MindMap = ({ graphData }) => {
             length: 200
         },
         nodes: {
-
             shape: 'box',
             font: {
                 multi: 'html',
@@ -23,8 +21,8 @@ const MindMap = ({ graphData }) => {
             size: 30
         },
         groups: {
-            1: { color: { background: '#f8efc1', border: 'black' } }, // Укажите цвет для группы с идентификатором 1
-            2: { color: { background: '#f8bdb9', border: 'black' } }, // Укажите цвет для группы с идентификатором 2
+            1: { color: { background: '#f8efc1', border: 'black' } },
+            2: { color: { background: '#f8bdb9', border: 'black' } }
         },
 
     };

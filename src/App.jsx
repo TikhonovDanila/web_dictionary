@@ -1,4 +1,3 @@
-// App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import GraphPage from './GraphPage';
@@ -14,13 +13,11 @@ const App = () => {
                         <li>
                             <Link to="/">Семантический граф</Link>
                         </li>
-
                         <li>
                             <Link to="/term-list">Глоссарий</Link>
                         </li>
                     </ul>
                 </nav>
-
                 <Routes>
                     <Route path="/" element={<GraphPage />} />
                     <Route path="/term-list" element={<TermListPage />} />
@@ -29,5 +26,4 @@ const App = () => {
         </Router>
     );
 };
-
 export default App;
